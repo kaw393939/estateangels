@@ -10,5 +10,8 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html')
       }
     }
-  }
+  },
+  test: {
+    environment: 'jsdom',
+  },
 });
